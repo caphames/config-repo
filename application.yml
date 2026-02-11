@@ -1,6 +1,10 @@
 global:
   message: Welcome to global microservices environments!!
   logging:
+  eureka:
+    client:
+      service-url:
+        defaultZone: http://localhost:8761/eureka
     level:
       root: INFO
   management:
